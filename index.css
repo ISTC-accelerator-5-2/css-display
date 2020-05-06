@@ -1,0 +1,52 @@
+.inline-div {
+  display: inline;
+  background-color: green;
+}
+
+.block-div {
+  display: block;
+  background-color: green;
+}
+
+.inline-block-div {
+  display: inline-block;
+  background-color: green;
+}
+
+.flex-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.el {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  justify-self: center;
+}
+
+.big-el {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}
+
+.grid-wrapper {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 300px 300px 300px;
+  /* grid-template-columns: 100px auto 300px; */
+  /* grid-template-columns: repeat(3, 300px); */
+  /* grid-template-columns: repeat(3, 300px) 200px; */
+  /* grid-template-rows: 50px; */
+  /* justify-content: center; */
+  /* place-content: center; */
+  /* place-items: center; */
+}
